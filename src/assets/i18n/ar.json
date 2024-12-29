@@ -1,0 +1,71 @@
+{
+  "navbar": {
+    "home": "الرئيسية",
+    "products": "المنتجات",
+    "categories": "الاقسام",
+    "brands": "العلامات التجارية",
+    "Sign Out": "تسجيل خروج",
+    "Lang": "اللغه",
+    "Log In": "تسجيل دخول",
+    "Register": "انشاء حساب"
+  },
+  "auth-nav": {
+    "Log In": "تسجيل دخول",
+    "register": "انشاء حساب",
+    "Lang": "اللغه"
+  },
+  "register": {
+    "Register Now:": "سجل الآن:",
+    "name": "الاسم",
+    "name Is Requird": "الاسم مطلوب",
+    "Name sould be more than or equal 3 chars": "يجب أن يكون الاسم أكثر من أو يساوي 3 أحرف",
+    "Name sould be less than or equal 20 chars": "يجب أن يكون الاسم أقل من أو يساوي 20 حرفًا",
+    "email": "البريد الإلكتروني",
+    "email Is Requird": "البريد الإلكتروني مطلوب",
+    "Enter Valid Email": "أدخل بريدًا إلكترونيًا صالحًا",
+    "password": "كلمة المرور",
+    "password Is Requird": "كلمة المرور مطلوبة",
+    "Enter Valid Password": "أدخل كلمة مرور صالحة",
+    "rePassword": "إعادة كلمة المرور",
+    "Password Confirmation Is Incorrect": "تأكيد كلمة المرور غير صحيح",
+    "phone": "رقم الهاتف",
+    "phone Is Requird": "رقم الهاتف مطلوب",
+    "Enter Valid phone": "أدخل رقم هاتف صالح",
+    "Register": "تسجيل",
+    "Successful Register": "تم التسجيل بنجاح"
+  },
+  "footer": {
+    "Get The FreshCart App": "احصل على تطبيق FreshCart",
+    "We Will Send You a Link, Open it on Your Phone to download the app": "سنرسل لك رابطًا، افتحه على هاتفك لتحميل التطبيق",
+    "Share App Link": "مشاركة رابط التطبيق",
+    "Email": "البريد الإلكتروني",
+    "Payment partners": "شركاء الدفع",
+    "Get Deliveries with FreshCart": "احصل على التوصيل مع FreshCart"
+  },
+  "login": {
+    "Login Now:": "تسجيل الدخول الآن:",
+    "email": "البريد الإلكتروني",
+    "Email Is Requird": "البريد الإلكتروني مطلوب",
+    "Enter Valid Email": "أدخل بريدًا إلكترونيًا صالحًا",
+    "password": "كلمة المرور",
+    "password Is Requird": "كلمة المرور مطلوبة",
+    "Enter Valid password": "أدخل كلمة مرور صالحة",
+    "Forget Password": "نسيت كلمة المرور",
+    "Log In": "تسجيل الدخول",
+    "Successful Login": "تم تسجيل الدخول بنجاح"
+  },
+  "forget": {
+    "Forget Password": "نسيت كلمة المرور",
+    "email": "البريد الإلكتروني",
+    "Verify E-mail": "التحقق من البريد الإلكتروني",
+    "resetCode": "رمز إعادة التعيين",
+    "Verify Code": "التحقق من الرمز",
+    "newPassword": "كلمة المرور الجديدة"
+  },
+  "home": {
+    "Popular Categories": "الاقسام الشائعة",
+    "Popular Products": "المنتجات الشائعة",
+    "Add To Cart": "إضافة إلى السلة",
+    "Search By Name....": "ابحث بالاسم........"
+  }
+}

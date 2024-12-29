@@ -1,0 +1,2 @@
+import './polyfills.server.mjs';
+import{Gb as a,Nb as i,aa as o,pb as n,qb as r}from"./chunk-3ISFVPN5.mjs";import"./chunk-VVCT4QZE.mjs";var d=(()=>{class e{static{this.\u0275fac=function(t){return new(t||e)}}static{this.\u0275cmp=o({type:e,selectors:[["app-allorders"]],standalone:!0,features:[i],decls:2,vars:0,template:function(t,s){t&1&&(n(0,"p"),a(1,"allorders works!"),r())}})}}return e})();export{d as AllordersComponent};

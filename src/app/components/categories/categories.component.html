@@ -1,0 +1,18 @@
+<section>
+
+    <h2>{{"home.Popular Categories"|translate}}</h2>
+    <owl-carousel-o [options]="customOptionsCat">
+        @for (cat of categoryList(); track cat._id)
+        {
+        <ng-template carouselSlide>
+            <div>
+                <img [src]="cat.image" height="280px" [alt]="cat.name" class="w-100">
+                <h3 class="h6 text-main">{{cat.name}}</h3>
+            </div>
+        </ng-template>
+        }
+
+
+    </owl-carousel-o>
+
+</section>

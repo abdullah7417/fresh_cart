@@ -1,0 +1,69 @@
+{
+  "navbar": {
+    "home": "Home",
+    "products": "Products",
+    "categories": "Categories",
+    "brands": "Brands",
+    "Lang": "Lang",
+    "Sign Out": "Sign Out"
+  },
+  "auth-nav": {
+    "Log In": "LogIn",
+    "register": "Register",
+    "Lang": "Lang"
+  },
+  "register": {
+    "Register Now:": "Register Now:",
+    "name": "Name",
+    "name Is Requird": "Name Is Requird",
+    "Name sould be more than or equal 3 chars": "Name sould be more than or equal 3 chars",
+    "Name sould be less than or equal 20 chars": "Name sould be less than or equal 20 chars",
+    "email": "Email",
+    "email Is Requird": "Email Is Requird",
+    "Enter Valid Email": "Enter Valid Email",
+    "password": "Password",
+    "password Is Requird": "Password Is Requird",
+    "Enter Valid Password": "Enter Valid Password",
+    "rePassword": "Repassword",
+    "Password Confirmation Is Incorrect": "Password Confirmation Is Incorrect",
+    "phone": "Phone",
+    "phone Is Requird": "Phone Is Requird",
+    "Enter Valid phone": "Enter Valid Phone",
+    "Register": "Register",
+    "Successful Register": "Successful Register"
+  },
+  "footer": {
+    "Get The FreshCart App": "Get The FreshCart App",
+    "We Will Send You a Link, Open it on Your Phone to download the app": "We Will Send You a Link, Open it on Your Phone to download the app",
+    "Share App Link": "Share App Link",
+    "Email": "Email",
+    "Payment partners": "Payment partners",
+    "Get Deliveries with FreshCart": "Get Deliveries with FreshCart"
+  },
+  "login": {
+    "Login Now:": "Login Now:",
+    "email": "Email",
+    "Email Is Requird": "Email Is Requird",
+    "Enter Valid Email": "Enter Valid Email",
+    "password": "password",
+    "password Is Requird": "Password Is Requird",
+    "Enter Valid password": "Enter Valid password",
+    "Forget Password": "Forget Password",
+    "Log In": "Log In",
+    "Successful Login": "Successful Login"
+  },
+  "forget": {
+    "Forget Password": "Forget Password",
+    "email": "Email",
+    "Verify E-mail": "Verify E-mail",
+    "resetCode": "Reset Code",
+    "Verify Code": "Verify Code",
+    "newPassword": "New Password"
+  },
+  "home": {
+    "Popular Categories": "Popular Categories",
+    "Popular Products": "Popular Products",
+    "Add To Cart": "Add To Cart",
+    "Search By Name....": "Search By Name...."
+  }
+}

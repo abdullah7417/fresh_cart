@@ -1,0 +1,99 @@
+<!--~~~~~~~~~~~~~~~~~~~ STATIC SLIDER~~~~~~~~~~~~~~~~~ -->
+<section>
+  <div class="row gap-0">
+    <div class="col-md-8">
+      <div>
+        <owl-carousel-o [options]="customOptionsMain">
+          <ng-template carouselSlide>
+            <img src="./assets/images/download (5).jpg" height="400px" class="w-100" alt="slider-img">
+
+          </ng-template>
+          <ng-template carouselSlide>
+            <img src="./assets/images/download (6).jpg" height="400px" class="w-100" alt="slider-img">
+
+          </ng-template>
+          <ng-template carouselSlide>
+            <img src="./assets/images/download (7).jpg" height="400px" class="w-100" alt="slider-img">
+
+          </ng-template>
+          <ng-template carouselSlide>
+            <img src="./assets/images/NewArrival.jpg" height="400px" class="w-100" alt="slider-img">
+
+          </ng-template>
+          <ng-template carouselSlide>
+            <img src="./assets/images/bank.png" height="400px" class="w-100" alt="slider-img">
+
+          </ng-template>
+
+        </owl-carousel-o>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div>
+        <img src="./assets/images/download (1).jpg" height="200px" class="w-100" alt="slider-img">
+        <img src="./assets/images/download (2).jpg" height="200px" class="w-100" alt="slider-img">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- ~~~~~~~~~~~~~~~~~categorIES~~~~~~~~~~~~~~~~~~ -->
+
+<section>
+
+  <h2>{{"home.Popular Categories"|translate}}</h2>
+  <owl-carousel-o [options]="customOptionsCat">
+    @for (cat of categoryList(); track cat._id)
+    {
+    <ng-template carouselSlide>
+      <div>
+        <img [src]="cat.image" height="280px" [alt]="cat.name" class="w-100">
+        <h3 class="h6 text-main">{{cat.name}}</h3>
+      </div>
+    </ng-template>
+    }
+
+
+  </owl-carousel-o>
+
+</section>
+
+
+
+<!-- ~~~~~~~~~~~~~PRODUCTS~~~~~~~~~~~~~~~~~~~~~~~~ -->
+<section>
+  <h3>{{"home.Popular Products"|translate}}</h3>
+  <input [(ngModel)]="text" type="search" [placeholder]="'home.Search By Name....'|translate"
+    class="form-control w-50 mx-auto my-3 ">
+  <div class="row g-3">
+    @for(product of producList().slice(0 , 12) | search:text ; track $index){
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+      <div class="product p-2">
+
+        <div [routerLink]="['/details', product.id]">
+          <img [src]="product.imageCover" [alt]="product.title" class="w-100" />
+          <h3 class="small text-main">{{ product.category.nam }}</h3>
+          <h4 class="h6">{{ product.title | tittle : 2 }}</h4>
+
+          <div class="d-flex justify-content-between align-items-center">
+            <span>{{ product.price | currency:'GBP' }}</span>
+
+            <div>
+              @for (num of [1,2,3,4,5].slice(0 ,product.ratingsAverage); track
+              $index) {
+              <span><i class="fas fa-star rating-color"></i></span>
+              } @if(product.ratingsAverage %1 !== 0 ){
+              <i class="fa-solid fa-star-half-stroke rating-color"></i>
+              }
+              <span class="text-muted">{{ product.ratingsAverage }}</span>
+            </div>
+          </div>
+        </div>
+
+        <button class="btn btn-main w-100" (click)="addCart(product.id)">{{"home.Add To Cart"|translate}}</button>
+      </div>
+    </div>
+    }
+  </div>
+</section>
